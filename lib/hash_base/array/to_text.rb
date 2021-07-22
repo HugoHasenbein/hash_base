@@ -31,7 +31,7 @@ class Array
   ########################################################################################
   def to_text(indent: 15, precision: 2, padding: " | " )
     map do |line| 
-      ln = line.is_a?(Array) : line : [line]
+      ln = line.is_a?(Array) ? line : [line]
       ln.map do |e| 
         case e 
         when Integer
