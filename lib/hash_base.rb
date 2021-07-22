@@ -19,11 +19,12 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
+require "hash_base/hash/grouping"
 require "hash_base/hash/apply"
 require "hash_base/hash/zip_out"
-require "hash_base/hash/grouping"
 require "hash_base/hash/to_table"
 
-require "hash_base/array/to_text"
-require "hash_base/array/to_html"
 require "hash_base/array/grouping"
+require "hash_base/array/to_html"
+require "hash_base/array/to_list"
+require "hash_base/array/to_text"
