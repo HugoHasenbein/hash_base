@@ -21,8 +21,9 @@
 
 require "hash_base/hash/grouping"
 require "hash_base/hash/apply"
-require "hash_base/hash/zip_out"
+require "hash_base/hash/deep_values"
 require "hash_base/hash/to_table"
+require "hash_base/hash/zip_out"
 
 require "hash_base/array/grouping"
 require "hash_base/array/to_html"
